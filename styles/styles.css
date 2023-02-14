@@ -1,0 +1,179 @@
+:root {
+    --progress-color: #56C8EA;
+    --color-gray: #3C4240;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    gap: 2rem;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact ul li {
+    padding: 1rem;
+}
+
+.image-perfil {
+    border-radius: 25rem;
+    width: 50%;
+}
+
+.title-section {
+    border-bottom: 5px solid white;
+}
+
+.title-section-second {
+    border-bottom: 5px solid black;
+}
+
+.name {
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: none;
+}
+
+.first-section {
+    width: 30%;
+    background-color: var(--color-gray);
+    color: white;
+}
+
+.information-profile {
+    margin-left: 1rem;
+}
+
+.second-section {
+    width: 70%;
+}
+
+.experience li {
+    padding: 1rem;
+}
+
+.second-section section {
+    margin: 4rem 1rem;
+}
+
+.profile {
+    text-align: center;
+    padding-top: 2rem;
+    background-color: var(--progress-color);
+    color: var(--color-gray);
+}
+
+.profile h3 {
+    padding-bottom: 1.5rem;
+}
+
+.education {
+    list-style-type: none;
+}
+
+.education li {
+    padding: 1rem;
+}
+
+
+.progress-languages {
+    width: 50%;
+    height: 1rem;
+    background-color: darkgrey;
+}
+
+
+.language-spanish {
+    width: 100%;
+    height: 100%;
+    background-color: var(--progress-color);
+}
+
+.language-english {
+    width: 50%;
+    height: 100%;
+    background-color: var(--progress-color);
+}
+
+.progress-technologies {
+    width: 70%;
+    height: 1rem;
+    background-color: darkgray;
+}
+
+.technologies-htmlcss {
+    width: 50%;
+    height: 100%;
+    background-color: var(--progress-color);
+}
+
+.technologies-python {
+    width: 40%;
+    height: 100%;
+    background-color: var(--progress-color);
+}
+
+.technologies-javascript {
+    width: 50%;
+    height: 100%;
+    background-color: var(--progress-color);
+}
+
+.technologies-mysql {
+    width: 40%;
+    height: 100%;
+    background-color: var(--progress-color);
+}
+
+.technologies-java {
+    width: 50%;
+    height: 100%;
+    background-color: var(--progress-color);
+}
+
+.technologies-react {
+    width: 50%;
+    height: 100%;
+    background-color: var(--progress-color);
+}
+
+.technologies-rrstudio {
+    width: 50%;
+    height: 100%;
+    background-color: var(--progress-color);
+}
+
+.technologies-autodeskinventor {
+    width: 50%;
+    height: 100%;
+    background-color: var(--progress-color);
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+i {
+    color: var(--progress-color);
+}
+
+.technologie {
+    width: 35%;
+    padding: 1rem;
+}
+
+.references {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
